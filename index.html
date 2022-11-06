@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCA | Login</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="wallpaper">
+    <div>
+        <h1>
+            <a href="Login.html">Login</a> | 
+            <a href="SignUp.html">SignUp</a>
+        </h1>
+        <br>
+        <br>
+        <form action="Data.xlsx"> 
+            <center>
+                <table>
+                    <tr>
+                        <td td style="height:5%;width:40%">
+                            <p>Login ID
+                                <span class="color_red">*</span>
+                            </p>
+                        </td>
+                        <td td style="height:5%;width:40%">
+                            <input type="number" placeholder="Enter Scholar Number" name="Scholar No." required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td td style="height:5%;width:40%">
+                            <p>Password
+                                <span class="color_red">*</span>
+                            </p>
+                        </td>
+                        <td td style="height:5%;width:40%">
+                            <input type="password" placeholder="Enter Password" name="Password" required>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <button type="reset">Reset</button>
+            <button onclick="window.location.href = 'Forgot Password.html';">Forgot Password</button>
+            <button onclick="window.location.href = 'MCA_Home.html';">Login</button>
+            <p>Required fields are followed by 
+                <span class="color_red">*</span>
+            </p>
+        </form>    
+    </div>
+</body>
+</html>

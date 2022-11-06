@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCA | SignUp</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="wallpaper">
+    <div>
+        <h1>
+            <a href="Login.html">Login</a> | 
+            <a href="SignUp.html">SignUp</a>
+        </h1>
+        <form action="Data.xlsx"> 
+            <center>
+                <table>
+                    <tr>
+                        <td td style="height:5%;width:40%">
+                            <p>Course Type
+                                <span class="color_red">*</span>
+                            </p>
+                        </td>
+                        <td td style="height:5%;width:40%">
+                            <select name="Course Type" required>
+                                <option>Select</option>
+                                <option value="MCA">MCA</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td td style="height:5%;width:40%">
+                            <p>Semester
+                                <span class="color_red">*</span>
+                            </p>
+                        </td>
+                        <td td style="height:5%;width:40%">
+                            <select name="Semester" required>
+                                <option>Select</option>
+                                <option value="1st">1st</option>
+                                <option value="2nd">2nd</option>
+                                <option value="3rd">3rd</option>
+                                <option value="4th">4th</option>
+                                <option value="5th">5th</option>
+                                <option value="6th">6th</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td td style="height:5%;width:40%">
+                            <p>Scholar Number
+                                <span class="color_red">*</span>
+                            </p>
+                        </td>
+                        <td td style="height:5%;width:40%">
+                            <input type="number" placeholder="Enter Scholar Number" name="Scholar Number" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td td style="height:5%;width:40%">
+                            <p>Password
+                                <span class="color_red">*</span>
+                            </p>
+                        </td>
+                        <td td style="height:5%;width:40%">
+                            <input type="Password" placeholder="Set a new Password" name="Password" required>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <button type="reset">Reset</button>
+            <button onclick="window.location.href = 'Confirm Account Details.html';">Confirm</button>
+            <p>Required fields are followed by 
+                <span class="color_red">*</span>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body.wallpaper{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+span.color_red{
+    color: red;
+}
+div{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.157);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    margin: 4%;
+    width: 120px;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    text-align: left;
+    margin-left: 5%;
+}

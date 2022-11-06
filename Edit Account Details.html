@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Account Details</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="wallpaper">
+    <div>
+        <h1>Edit Account Details</h1>
+        <br>
+        <center>
+            <table>
+                <tr>
+                    <td td style="height:5%;width:20%">
+                        <p>Full Name:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <input type="text" placeholder="Enter Full Name" name="Name">
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>Father/Husband Name:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <input type="text" placeholder="Father/Husband Name" name "Father/Husband Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td td style="height:5%;width:20%">
+                        <p>Date of Birth:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <input type="date" name="DOB">
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>Category:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>General
+                            <input type="radio" name="Category" id="Male">
+                            OBC
+                            <input type="radio" name="Category" id="Female">
+                            SC/ST
+                            <input type="radio" name="Category" id="Female">
+                    </td>
+                </tr>
+                <tr>
+                    <td td style="height:5%;width:20%">
+                        <p>Gender:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>Male
+                            <input type="radio" name="Gender" id="Male">
+                            Female
+                            <input type="radio" name="Gender" id="Female">
+                            Others
+                            <input type="radio" name="Gender" id="Others">
+                        </p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>Marital Status:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>Married
+                            <input type="radio" name="Maritial Status" id="Married">
+                            Unmarried
+                            <input type="radio" name="Maritial Status" id="Unmarried">
+                            Prefer not to say
+                            <input type="radio" name="Maritial Status" id="Prefer not to say">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td td style="height:5%;width:20%">
+                        <p>Mobile Number:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <input type="Number" placeholder="Mobile Number" name="Mobile Number">
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <p>EMail ID:</p>
+                    </td>
+                    <td td style="height:5%;width:20%">
+                        <input type="email" placeholder="Enter Email ID" name="Email ID">
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <button type="reset">Reset</button>
+        <button onclick="window.location.href = 'Confirm Account Details.html';">Save Details</button>
+    </div>
+</body>
+</html>
